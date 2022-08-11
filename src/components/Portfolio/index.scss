@@ -1,0 +1,33 @@
+
+
+.gallery {
+-moz-column-count: 4;    
+column-count: 4;
+column-width: 33%;
+-moz-column-width: 33%;
+padding: 0 12px;
+margin-left: 50px;
+column-gap: 0;
+-moz-column-gap: 0;
+margin-left: 100px;
+margin-top: 50px;
+
+}
+.gallery .pics {
+    -moz-transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    margin-bottom: 12px;
+    cursor: pointer;
+
+}
+
+.portfolio-p {
+    font-size: 18px;
+    color: #ffd700;
+    padding-top: -5px;  
+}
+
+img.portfolio {
+    width:auto;
+}
