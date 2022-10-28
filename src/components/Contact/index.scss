@@ -68,3 +68,13 @@
         text-align: center;
         margin-right: 10px;
       }
+      @media screen and (min-width:300px) and (max-width: 900px) {
+        input[type='text'],
+      input[type='email'] {
+        font-size: 12px;
+      }
+
+      .contact-form {
+        width: 120%;
+      }
+    }

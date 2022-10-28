@@ -76,3 +76,16 @@
           transform: rotateX(90deg);
         }
       }
+      @media screen and (min-width:300px) and (max-width: 900px) {
+       .about-h1 {
+          font-size: 36px;
+        }
+        .stage-cube-cont {
+          width: 20%;
+          height: 20%;
+          right: 15%;
+          top: 30%;
+        }
+
+      }
+      

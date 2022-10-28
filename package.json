@@ -13,6 +13,7 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.0",
     "dotenv": "^16.0.1",
+    "file-loader": "^6.2.0",
     "firebase": "^9.9.2",
     "gsap-trial": "^3.10.4",
     "loaders.css": "^0.1.2",
@@ -24,7 +25,7 @@
     "react-loaders": "^3.0.1",
     "react-on-screen": "^2.1.1",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "sass": "^1.54.4",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"

@@ -54,7 +54,7 @@ const getImg = (imgSrc) => {
         return (
           <div className="pics" key={index}  onClick={() => getImg(item.imgSrc)}>
             <img src={item.imgSrc} style={{width: 'auto'}} />
-            <Link to={item.url}>
+            <Link to={item.url} className="gallery-link">
             <p className="portfolio-p">{item.description}</p>
             </Link>
           </div>

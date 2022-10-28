@@ -1,5 +1,4 @@
 
-
 .gallery {
 -moz-column-count: 4;    
 column-count: 4;
@@ -11,23 +10,37 @@ column-gap: 0;
 -moz-column-gap: 0;
 margin-left: 100px;
 margin-top: 50px;
-
 }
+
 .gallery .pics {
     -moz-transition: all 350ms ease;
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
     margin-bottom: 12px;
     cursor: pointer;
-
 }
-
+.gallery-link {
+    text-decoration: none;
+}
 .portfolio-p {
     font-size: 18px;
     color: #ffd700;
     padding-top: -5px;  
 }
-
+.portfolio-p:hover{
+    color: white;
+}
 img.portfolio {
     width:auto;
 }
+
+@media screen and (min-width:300px) and (max-width: 900px) {
+ .gallery {
+    display: flex;
+    flex-direction: column;
+ }
+.gallery-link {
+    color: red;
+    text-decoration: none;
+}
+  }

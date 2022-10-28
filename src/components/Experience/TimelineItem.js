@@ -12,7 +12,7 @@ const TimelineItem = ({ data }) => (
             {data.link && (
                 <a
                     href={data.link.url}
-                    target="_blank"
+                    target=<div className="more">test</div>
                     rel="noopener noreferrer"
                 >
                     {data.link.text}

@@ -19,7 +19,7 @@ const About = () => {
     <>
       <div className="container about-page">
         <div className="text-zone">
-          <h1>
+          <h1 className="about-h1">
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
